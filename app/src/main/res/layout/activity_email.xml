@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".email_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#0E524C"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/emailicon"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Send an E-mail"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </Toolbar>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:columnOrderPreserved="false"
+                android:rowCount="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    app:cardBackgroundColor="#E8EEF4"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/et_to"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@drawable/email_bg"
+                            android:hint="Enter Email"
+                            android:padding="10dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="#BFAEAE">
+
+                        </EditText>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:columnOrderPreserved="false"
+                android:rowCount="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    app:cardBackgroundColor="#E8EEF4"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/et_subject"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@drawable/email_bg"
+                            android:hint="Subject"
+                            android:padding="10dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="#BFAEAE" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:columnOrderPreserved="false"
+                android:rowCount="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    app:cardBackgroundColor="#E8EEF4"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/messagespace"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/email_bg"
+                            android:gravity="top"
+                            android:hint="Message"
+                            android:padding="10dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="#BFAEAE" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="1"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:columnOrderPreserved="false"
+                android:rowCount="2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    app:cardBackgroundColor="#E8EEF4"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/sendEmailBtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Send"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:textSize="25sp"
+                            android:background="@drawable/btn_gradient"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp">
+
+                        </Button>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

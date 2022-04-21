@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds"
+    tools:context=".splashScreen">
+
+    <ImageView
+        android:id="@+id/splashimg"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/netcamp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/splashtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splashimg"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="9dp"
+        android:fontFamily="@font/amarante"
+        android:layout_marginBottom="244dp"
+        android:gravity="center"
+        android:text="Welcome to the Project"
+        android:textColor="#AA9943"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/maintext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Created By"
+        android:textColor="#AA9943"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Majaz-ul Haque"
+        android:textColor="#AA9943"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </TextView>
+</RelativeLayout>

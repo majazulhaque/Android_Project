@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF362E</color>
+    <color name="colorPrimaryDark">#FF362E</color>
+    <color name="colorAccent">#FF362E</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="startcolorgradient">#178B7F</color>
+    <color name="endcolorgradient">#0E524C</color>
+    <color name="facebook">#3c62ac</color>
+    <color name="google">#C34638</color>
+    <color name="starttoolbargradient">#C34638</color>
+    <color name="endtoolbargradient">#C34638</color>
+
+
+</resources>

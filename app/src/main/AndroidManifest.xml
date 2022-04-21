@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sharzelahmad.netscampproject">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="NetCampProject"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NetsCampProject"
+        tools:ignore="MissingPrefix">
+        <activity
+            android:name=".PhoneApp_activity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".SpecialFeature_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MediaPlayer_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MobileServices_activity"
+            android:exported="false" />
+        <activity
+            android:name=".CameraService_activity"
+            android:exported="false" />
+        <activity
+            android:name=".functionDesign1_activity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizResult_activity"
+            android:exported="false" />
+        <activity
+            android:name=".quizPlay_activity"
+            android:exported="false" />
+        <activity
+            android:name=".quiz_activity"
+            android:exported="false" />
+        <activity
+            android:name=".email_activity"
+            android:exported="false" />
+        <activity
+            android:name=".RecordVideo_activity"
+            android:exported="false" />
+        <activity
+            android:name=".camera_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Vplayer_activity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoPlayer_activity"
+            android:exported="false" />
+        <activity
+            android:name=".call_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sms_activity"
+            android:exported="false" />
+        <activity
+            android:name=".web_activity"
+            android:exported="false" />
+        <activity
+            android:name=".vibration_activity"
+            android:exported="false" />
+        <activity
+            android:name=".tts_activity"
+            android:exported="false" />
+        <activity
+            android:name=".flash_activity"
+            android:exported="false" />
+        <activity
+            android:name=".wifi_activity"
+            android:exported="false" />
+        <activity
+            android:name=".bluetooth_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Player_activity"
+            android:exported="false" />
+        <activity
+            android:name=".audio_player_activity"
+            android:exported="false" />
+        <activity
+            android:name=".calculator_activity"
+            android:exported="false" />
+        <activity
+            android:name=".profile_activity"
+            android:exported="false" />
+        <activity
+            android:name=".updateProfile_activity"
+            android:exported="false" />
+        <activity
+            android:name=".getotp_activity"
+            android:exported="false" />
+        <activity
+            android:name=".otplogin_activity"
+            android:exported="false" />
+        <activity
+            android:name=".signIn_activity"
+            android:exported="false" />
+        <activity
+            android:name=".signup_activity"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

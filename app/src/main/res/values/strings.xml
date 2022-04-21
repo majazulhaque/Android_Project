@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NetsCampProject</string>
+    <string name="facebook_app_id">418558743294445</string>
+    <string name="fb_login_protocol_scheme">fb418558743294445</string>
+    <string name="facebook">Facebook</string>
+    <string name="vadefault_web_client_id">default</string>
+
+</resources>

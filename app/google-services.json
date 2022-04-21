@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "610247435233",
+    "project_id": "netcampprojectmajaz",
+    "storage_bucket": "netcampprojectmajaz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610247435233:android:bc0222eb0d3118675b28a0",
+        "android_client_info": {
+          "package_name": "com.sharzelahmad.netscampproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610247435233-anttekg401aprcri49l0vp8it07knsjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcV6r54irkgI72O6Lt1pmbKFxoFYy-hk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610247435233-anttekg401aprcri49l0vp8it07knsjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
